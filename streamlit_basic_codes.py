@@ -1,5 +1,7 @@
 import streamlit as st
 
+
+st.set_page_config(layout="wide")
 #to print basic message
 st.write("Hello World")
 #To print the title
