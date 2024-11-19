@@ -13,7 +13,7 @@ def show_contact_form():
 col1, col2 = st.columns(2,gap='small',vertical_alignment='center')
 
 with col1:
-    st.image(r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio streamlit\assets\1 (2) (1).jpg")
+    st.image(r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\assets\1 (2) (1).jpg")
 with col2:
     st.title("Sumit Kumar",anchor=False)
     st.write(
