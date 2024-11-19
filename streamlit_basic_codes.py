@@ -78,3 +78,16 @@ if file_upload:
         
         
         st.write(data)
+        
+
+# To hide the header, footer and mainmenu use this code below at the time of deployment
+
+# hide_st_style = '''
+# <style>
+# #mainMenu {visibility :hidden;}
+# footer{visibility : hidden;}
+# header{visibility:hidden;}
+# </style>
+# '''
+
+# st.markdown(hide_st_style,unsafe_allow_html=True)
