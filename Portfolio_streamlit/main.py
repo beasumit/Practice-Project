@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(layout='centered')
 #page setup
 about_page = st.Page(
-    page = r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\pages\about_me.py",
+    page = r'C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\pages\about_me.py',
     title = "About Me",
     icon = "😁",
     default = True

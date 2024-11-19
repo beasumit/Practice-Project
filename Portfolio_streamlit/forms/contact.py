@@ -3,7 +3,7 @@ import re
 import requests as req
 
 
-webhook_url = st.secrets["webhook_url"]
+webhook_url = "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZjMDYzZTA0MzU1MjZiNTUzZDUxMzYi_pc"
 
 def is_valid_email(email):
     email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
