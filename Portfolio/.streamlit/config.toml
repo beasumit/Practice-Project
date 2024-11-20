@@ -2,7 +2,6 @@
 # Primary accent color for interactive elements.
 primaryColor = "#d33682"
 
-
 # Background color for the main content area.
 backgroundColor = "#addcee"
 
