@@ -23,7 +23,7 @@ pg = st.navigation(
 )
 
 #visible on all the pages
-st.logo('./assets/logo.png')
+st.logo(image='corner_logo',link='./asset/logo.png',icon_image='corner_logo')
 st.sidebar.text("Made By 😎 Sumit Kumar")
 #running navigation
 pg.run()
