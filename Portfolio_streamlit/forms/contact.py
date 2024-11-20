@@ -6,7 +6,7 @@ import requests as req
 webhook_url = st.secrets["webhook_url"]
 
 def is_valid_email(email):
-    email_pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+    email_pattern = f"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
     return re.match(email_pattern,email) is not None
 
 
