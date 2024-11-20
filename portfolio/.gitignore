@@ -1,1 +1,2 @@
-portfolio/.streamlit/secrets.toml
+.streamlit\secrets.toml
+forms\__pycache__
