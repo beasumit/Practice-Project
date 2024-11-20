@@ -4,20 +4,20 @@ import streamlit as st
 st.set_page_config(layout='centered')
 #page setup
 about_page = st.Page(
-    page = r'C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\pages\about_me.py',
+    page = r"Portfolio_streamlit\pages\about_me.py",
     title = "About Me",
     icon = "😁",
     default = True
 )
 
 sale_dashboard_page = st.Page(
-    page = r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\pages\sale_dashboard.py",
+    page = r"Portfolio_streamlit\pages\sale_dashboard.py",
     title = "Sales Dashboard",
     icon = "💵"
 )
 
 chat_bot_page = st.Page(
-    page = r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\pages\chatbot.py",
+    page = r"Portfolio_streamlit\pages\chatbot.py",
     title = "Chat-Bot",
     icon = "🤖"
 )
@@ -37,7 +37,7 @@ pg = st.navigation(
 
 
 #sharing om all the page data
-st.logo(r"C:\Users\bensu\Desktop\ML Projects\Practice-Project\Portfolio_streamlit\assets\logo.png")
+st.logo(r"Portfolio_streamlit\assets\logo.png")
 st.sidebar.text("Made By 👷🏻‍♂️🤖 Sumit Kumar")
 #run navifation
 pg.run()
